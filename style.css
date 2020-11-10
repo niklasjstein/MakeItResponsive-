@@ -131,8 +131,36 @@
         margin-left: 10%;
         margin-right: 10%; 
         display: unset;
-        justify-content:space-around;
         font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .names{
+        text-align: center;
+        align-items: center;
+    }
+    
+    .staff1{
+        margin-top: 3%;
+        text-align: center;
+        align-items: center; 
+    }
+    
+    .staff2{
+        margin-top: 3%;
+        text-align: center; 
+    }
+    
+    .staff3{
+        margin-top: 3%;
+        text-align: center;    
+    }
+    
+    .pictures{
+        width: 250px;
+        height: 250px;
+        background-image: linear-gradient(to bottom, #ebebeb, #f7f7f7);
+        box-shadow: 0 0 10px 1px rgba(0,0,0,0.3);
+        text-align: center;
     }
 }
 
