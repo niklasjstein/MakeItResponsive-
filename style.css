@@ -56,40 +56,65 @@
     font-size: 14pt;
 }
 
-.Staff-container{
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
+/*Staff members page*/
 
 .heading3{
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 42pt;
+    font-weight: bold;
     text-align: center;
-    font-size: 32pt;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    color: #33de61;
 }
 
-.staffPictures{
-    margin-left: 10%;
-    margin-right: 10%;
+.Staff-container{
     margin-top: 4%;
-    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%; 
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.person1{
-    width: 200px;
-    height: 200px;
+.names{
+    padding-top: 4%;
+    font-size: 36pt;
+    max-width: 320px;
+    font-weight: bolder;
 }
 
-.person2{
-    width: 200px;
-    height: 200px;
+.Titles{
+    font-size: 24pt;
+    max-width: 320px;
+    font-weight: bold;
 }
 
-.person3{
+.infoPerson{
+    font-size: 14pt;
+    max-width: 320px;
+}
+
+.staff1{
+    margin-top: 3%;
+    text-align: center; 
+}
+
+.staff2{
+    margin-top: 3%;
+    text-align: center; 
+}
+
+.staff3{
+    margin-top: 3%;
+    text-align: center; 
+    
+}
+
+.pictures{
     width: 200px;
     height: 200px;
+    background-image: linear-gradient(to bottom, #c7c7c7, #ebebeb);
 }
+
 
 @media only screen and (max-width: 540px){
     .navbar{
