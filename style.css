@@ -72,56 +72,6 @@
     text-align: center;
 }
 
-.Staff-container{
-    margin-top: 3%;
-    margin-left: 10%;
-    margin-right: 10%; 
-    display: flex;
-    justify-content: space-between;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.names{
-    padding-top: 4%;
-    font-size: 26pt;
-    letter-spacing: 2px;
-    max-width: 320px;
-    font-weight: bold;
-}
-
-.Titles{
-    font-size: 18pt;
-    max-width: 320px;
-    font-weight: bold;
-}
-
-.infoPerson{
-    font-size: 14pt;
-    max-width: 320px;
-}
-
-.staff1{
-    margin-top: 3%;
-    text-align: center; 
-}
-
-.staff2{
-    margin-top: 3%;
-    text-align: center; 
-}
-
-.staff3{
-    margin-top: 3%;
-    text-align: center; 
-    
-}
-
-.pictures{
-    width: 250px;
-    height: 250px;
-    background-image: linear-gradient(to bottom, #ebebeb, #f7f7f7);
-    box-shadow: 0 0 10px 1px rgba(0,0,0,0.3);
-}
 
 
 @media only screen and (max-width: 1120px){
@@ -131,37 +81,18 @@
         margin-left: 10%;
         margin-right: 10%; 
         display: unset;
+        justify-content: unset;
         font-family: Arial, Helvetica, sans-serif;
     }
 
-    .names{
+    .staffPictures{
         text-align: center;
-        align-items: center;
     }
-    
+
     .staff1{
-        margin-top: 3%;
-        text-align: center;
-        align-items: center; 
-    }
-    
-    .staff2{
-        margin-top: 3%;
-        text-align: center; 
-    }
-    
-    .staff3{
-        margin-top: 3%;
-        text-align: center;    
-    }
-    
-    .pictures{
-        width: 250px;
-        height: 250px;
-        background-image: linear-gradient(to bottom, #ebebeb, #f7f7f7);
-        box-shadow: 0 0 10px 1px rgba(0,0,0,0.3);
         text-align: center;
     }
+
 }
 
 
