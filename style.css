@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/*NAVBAR, used on all pages */
 
 .navbar{
     margin-left: 10%;
@@ -42,22 +43,62 @@
     color: white;
 }
 
+/* End of Navbar */
+
+
+/* Homepage */
+
 .IntroductionText{
     margin-top: 1%;
     margin-left: 10%;
     margin-right: 10%;  
 }
 
-.heading1{
+.IntroductionText h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 32pt;
-
 }
 
-.paragraph1{
+.IntroductionText .paragraph1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14pt;
 }
+
+/*Schedule page*/
+
+table{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+caption{
+    font-size: 24pt;
+    text-align: left;
+}
+
+th{
+    text-align: left;
+    letter-spacing: 2px;
+    background-color:  #57ff84;
+    color: white;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 10px;
+}
+
+tr:nth-child(odd) {
+    background-color: #ddd;
+}
+
+
 
 
 /*Staff page*/
@@ -139,7 +180,7 @@
 }
 
 
-@media only screen and (max-width: 540px){
+@media only screen and (max-width: 800px){
     .navbar{
         margin-left: 0;
         margin-right: 0;  
@@ -163,3 +204,5 @@
         font-size: 12pt;
     }
 }
+
+
