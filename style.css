@@ -140,7 +140,7 @@ tr:nth-child(odd) {
     text-align: center;
     width: auto;
     flex-wrap: wrap;
-    margin-top: 8%;
+    margin-top: 10%;
 }
 
 .team .staffMember{
@@ -266,6 +266,8 @@ h5{
     th, td{
         padding: 5px;
     }
+
+
 }
 
 
@@ -285,6 +287,16 @@ h5{
     th, td{
         padding: 4px;
         font-size: 10pt;
+    }
+
+    .wrapper h2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22pt;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        text-align: center;
+        margin-bottom: 50px;
     }
 }
 
