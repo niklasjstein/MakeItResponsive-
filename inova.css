@@ -1,0 +1,576 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*NAVBAR, used on all pages */
+
+.navbar{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 80%;
+    margin-left: 10%;
+    padding-right: 100px;
+    background-color: #57ff84;
+    min-height: 14vh;
+    justify-content: space-around;
+    display: flex;
+    align-items: center; 
+    z-index: 200;
+    
+}
+
+.logo{
+    width: 180x;
+    height: 90px;
+}
+
+.navigationButtons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    color:black;
+    width: 83%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22pt;
+}
+
+.navigationButtons a{
+    text-decoration: none;
+    color: black;
+}
+
+.navigationButtons a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+}
+
+/* End of Navbar */
+
+
+/* Homepage */
+
+.IntroductionText{
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;  
+}
+
+.IntroductionText h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32pt;
+
+}
+
+.IntroductionText .paragraph1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    line-height: 40px;
+}
+
+.IntroductionText .paragraph2{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    line-height: 40px;
+}
+
+.IntroductionText a{
+    color: rgb(35, 133, 15);
+
+}
+
+.IntroductionText .paragraph3{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    line-height: 40px;
+}
+/*Schedule page*/
+
+h4{
+    margin-top: 14%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24pt;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+table{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    width: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+caption{
+    font-size: 18pt;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 2%;
+}
+
+th{
+    text-align: left;
+    letter-spacing: 1px;
+    background-color:  #57ff84;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 10px;
+    font-size: 12pt;
+}
+
+tr:nth-child(odd) {
+    background-color: #ddd;
+}
+
+
+
+
+/*Staff page*/
+
+.wrapper{
+    margin-top: 12%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.wrapper h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.team{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    flex-wrap: wrap;
+    margin-top: 10%;
+}
+
+.team .staffMember{
+    background:#57ff84;
+    margin: 25px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    position: relative; 
+}
+
+.team .staffMember h3{
+    color: black;
+    font-size: 26pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.team .staffMember p.role{
+    font-size: 14pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-transform: uppercase;
+    margin: 12px;
+}
+
+.team .staffMember p{
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 12px;
+}
+
+.team .staffMember .teamImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #f0f0f0;
+}
+
+.team .staffMember .teamImg img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+
+/*Contact page*/
+
+.contactInfo{
+    padding-top: 12%;
+    line-height: 2;
+    text-align: center;
+}
+
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24pt;
+    text-transform: uppercase;
+    
+}
+
+.contactInfo, p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;  
+}
+
+@media only screen and (max-width: 1441px){
+    
+    h4{
+        margin-top: 20%;
+    }
+}
+
+
+@media only screen and (max-width: 1300px){
+    
+    
+    h4{
+        margin-top: 20%;
+    }
+    
+    table{
+        width: 800px;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    
+
+    h4{
+        margin-top: 20%;
+    }
+
+    table{
+        width: 650px;
+    }
+
+    .wrapper{
+        margin-top: 15%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+
+@media only screen and (max-width: 820px){
+    table{
+        width: 500px;
+    }
+
+    .navbar{
+        right: 0;
+       width: 100%;
+       padding-right: 54px;
+    }
+
+    .IntroductionText{
+        margin-top: 20%;
+        margin-left: 5%;
+        margin-right: 5%;  
+    }
+
+    .wrapper{
+        margin-top: 17%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .contactInfo{
+        margin-top: 10%;
+    }
+
+}
+
+@media only screen and (max-width: 750px){
+
+   h4{
+        margin-top: 27%;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    .navigationButtons{
+        font-size: 16pt;
+    }
+
+    .logo{
+        width: 160x;
+        height: 80px;
+    }
+    .IntroductionText{
+        margin-top: 22%;
+    }
+
+    .h4{
+
+    }
+
+    .wrapper{
+            margin-top: 22%;
+            margin-left: 10%;
+            margin-right: 10%;
+    }
+
+    .contactInfo{
+        margin-top: 10%;
+    }
+}
+
+
+@media only screen and (max-width: 620px){
+    table{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    th, td{
+        padding: 5px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 500px){
+    .navigationButtons{
+        font-size: 14pt;
+    }
+
+    table{
+        width: 400px;
+    }
+
+    caption{
+        font-size: 16pt;
+    }
+
+    th, td{
+        padding: 4px;
+        font-size: 10pt;
+    }
+
+     /* Our Team */
+
+    .wrapper{
+        margin-top: 25%;
+    } 
+
+    .wrapper h2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22pt;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 446px){
+    .navbar{
+        padding-right: 2px;
+    }
+    
+    .navigationButtons{
+        font-size: 12pt;
+      
+    }
+
+     /* Our Team */
+
+     .wrapper{
+        margin-top: 35%;
+    }
+
+    .IntroductionText{
+        margin-top: 30%;
+        margin-left: 10%;
+        margin-right: 10%;  
+    }
+}
+
+
+@media only screen and (max-width: 420px){
+
+    .logo{
+        width: 140x;
+        height: 70px;
+    }
+
+    .navigationButtons{
+        font-size: 12pt;
+    }
+
+    h4{
+        margin-top: 30%;
+        margin-bottom: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20pt;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    table{
+        width: 350px;
+    }
+
+    caption{
+        font-size: 16pt;
+    }
+
+    th, td{
+        padding: 2px;
+        font-size: 9pt;
+    }
+
+     /* Our Team */
+
+     .wrapper{
+        margin-top: 35%;
+    }
+}
+
+@media only screen and (max-width: 376px){
+    .navigationButtons{
+        font-size: 12pt;
+    }
+
+    h4{
+        margin-top: 35%;
+        margin-bottom: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18pt;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    table{
+        width: 300px;
+    }
+
+    caption{
+        font-size: 12pt;
+    }
+
+    th, td{
+        padding: 1px;
+        font-size: 8pt;
+    }
+
+    .contactInfo{
+        margin-top: 20%;
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 320px){
+    .IntroductionText{
+        margin-top: 35%;
+        margin-left: 10%;
+        margin-right: 10%;  
+    }
+
+    .IntroductionText h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 32pt;
+    
+    }
+    
+    .IntroductionText .paragraph1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14pt;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        line-height: 40px;
+    }
+    
+    .IntroductionText .paragraph2{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        line-height: 40px;
+    }
+    
+   
+    
+    .IntroductionText .paragraph3{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        line-height: 40px;
+    }
+    .navbar{
+        padding-right: 2px;
+    }
+    
+    .navigationButtons{
+        font-size: 9pt;
+      
+    }
+
+    /* SCHEDULE */
+
+    h4{
+        margin-top: 35%;
+    }
+
+    /* Contact page */
+
+    .contactInfo{
+        margin-top: 20%;
+        padding-top: 20%;
+        line-height: 2;
+        text-align: center;
+    }
+    
+    h5{
+   
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20pt;
+        text-transform: uppercase;
+        
+    }
+    
+    .contactInfo p{
+
+      margin-top: 5%;
+    }
+
+    /* Our Team */
+
+    .wrapper{
+        margin-top: 35%;
+    }
+    
+}
